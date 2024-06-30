@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="full-width header">
+            <img src="assets/image 1.png" alt="">
+            <h1 class="title_main">AluraGeek</h1>
+        </header>
+        <main class="container content">
+            <section class="section_content">
+                <h2 class="title_h2">Meus Produtos:</h2>
+
+                <ul class="produtos_wrapper" data-lista>
+
+                </ul>
+            </section>
+
+            <section class="section_content">
+                <h2 class="title_h2">Adicionar <br>Produto:</h2>
+                <form class="formulario" data-formulario>
+                    <input name="nome" type="text" placeholder="nome..." required data-nome>
+                    <input name="valor" type="text" placeholder="valor..." required data-valor>
+                    <input name="imagem" type="text" placeholder="imagem..." required data-imagem>
+                    <div class="btn_wrapper">
+                        <button type="submit" class="btn btn_primary">Guardar</button>
+                        <button class="btn">Limpar</button>
+                    </div>
+                    <span class="badge"><i class="ri-checkbox-circle-fill"></i> <span>Produto gravado com sucesso!</span></span>
+                </form>
+            </section>
+        </main>
+        <footer class="full-width footer">
+            <div class="logo">
+                <img src="assets/image 1.png" alt="">
+                <h2 class="title_main">AluraGeek</h2>
+            </div>
+            <p>Desenvolvido por <strong>Matheus Brito</strong></p>
+            <p>Alura Latam 2024 | Oracle ONE</p>
+        </footer>
+
+        <script src="js/mostrarProdutos.js" type="module"></script>
+        <script src="js/criarProduto.js" type="module"></script>
+        <script src="js/deletarProduto.js" type="module"></script>
+        <script src="js/validarFormulario.js" type="module"></script>
+        <!-- <script src="js/conectaApi.js"></script> -->
+
+    </body>
+</html>

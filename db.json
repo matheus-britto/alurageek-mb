@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "nome": "Power Morher - <br> Mighty Morphin <br> Power Rangers",
+      "valor": "150",
+      "imagem": "https://m.media-amazon.com/images/I/81+G6PqN6pL.jpg",
+      "id": 1
+    },
+    {
+      "nome": "W Driver - <br> Kamen Rider W",
+      "valor": "200",
+      "imagem": "https://m.media-amazon.com/images/I/71kxjzj6asL.jpg",
+      "id": 2
+    },
+    {
+      "nome": "Brinco do Sol Tanjiro - Demons Slayer",
+      "valor": "10",
+      "imagem": "https://i.pinimg.com/originals/79/96/06/799606ef847fc10fc073ffa8ed3fca9a.jpg",
+      "id": 3
+    },
+    {
+      "nome": "Akuma no Mi - <br> One Piece",
+      "valor": "25",
+      "imagem": "https://img.ws.mms.shopee.com.br/caa0c3c333793b74e4297d4dcafde93a",
+      "id": 4
+    },
+    {
+      "nome": "DigiVice - <br> Digimon Frontier",
+      "valor": "60",
+      "imagem": "https://p-bandai.com/img/us/p/m/N2648482001001_002.jpg",
+      "id": 5
+    },
+    {
+      "nome": "Batarang - <br>Batman v Superman",
+      "valor": "300",
+      "imagem": "https://www.toyark.com/wp-content/uploads/2017/01/QMX-Batarang-Replica-1.jpg",
+      "id": 6
+    },
+    {
+      "imagem": "https://marvelofficial.com/wp-content/uploads/2020/04/B986AAA5-F257-4821-BA16-3CD931E57E4A.jpeg",
+      "nome": "Escudo Capitão América <br> - Marvel",
+      "valor": "700",
+      "id": 7
+    },
+    {
+      "imagem": "https://m.media-amazon.com/images/I/612wZGnWvfL.jpg",
+      "nome": "Máscara Roarschach - Watchmen",
+      "valor": "150",
+      "id": 8
+    }
+  ]
+}
