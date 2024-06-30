@@ -1,5 +1,5 @@
 async function listaDeProdutos() {
-    const conexao = await fetch('https://produtos-8gkqgzqlk-matheus-projects-21a823c0.vercel.app/produtos')
+    const conexao = await fetch('https://produtos-api.vercel.app/produtos')
     const conexaoConvertida = await conexao.json();
 
     // console.log(conexaoConvertida);
@@ -9,7 +9,7 @@ async function listaDeProdutos() {
 // listaDeProdutos()
 
 async function criaProduto(imagem, nome, valor) {
-    const conexao = await fetch('https://produtos-8gkqgzqlk-matheus-projects-21a823c0.vercel.app/produtos', {
+    const conexao = await fetch('https://produtos-api.vercel.app/produtos', {
         method: 'POST', 
         headers: {
             'Content-Type': 'application/json'
@@ -27,7 +27,7 @@ async function criaProduto(imagem, nome, valor) {
 }
 
 async function deletaProduto(id) {
-    const conexao = await fetch(`https://produtos-8gkqgzqlk-matheus-projects-21a823c0.vercel.app/produtos/${id}`, {
+    const conexao = await fetch(`https://produtos-api.vercel.app/produtos/${id}`, {
         method: 'DELETE'
     });
 
